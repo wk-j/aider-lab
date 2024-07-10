@@ -1,0 +1,25 @@
+procs:
+  build:
+    cwd: ./
+    shell: dotnet build src/MyApp
+    autostart: false
+  test:
+    cwd: ./
+    shell: dotnet test tests/MyApp.Tests
+    autostart: false
+  watch-build:
+    cwd: ./
+    shell: dotnet watch --project src/MyApp build
+    autostart: false
+  watch-test:
+    cwd: ./
+    shell: dotnet watch --project tests/MyApp.Tests test
+    autostart: false
+  run:
+    cwd: ./
+    shell: dotnet run --project src/MyApp
+    autostart: false
+  watch-run:
+    cwd: ./
+    shell: dotnet watch --project src/MyApp run
+    autostart: false
