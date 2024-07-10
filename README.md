@@ -1,35 +1,30 @@
-# Aider
+# MyApp
 
-Aider is an AI-powered coding assistant that helps developers write, edit, and improve their code efficiently.
-
-## Features
-
-- AI-assisted code generation
-- Code refactoring suggestions
-- Bug detection and fixing
-- Natural language processing for code-related queries
-- Integration with popular development environments
-
-## Getting Started
-
-To get started with Aider, follow these steps:
-
-1. Install Aider using pip:
-   ```
-   pip install aider
-   ```
-
-2. Set up your API key (if required)
-3. Start using Aider in your preferred development environment
+MyApp is a .NET Core web application that demonstrates basic API functionality.
 
 ## Usage
 
-[Add basic usage instructions here]
+To build and test the project, follow these steps:
 
-## Contributing
+1. Clone the repository:
+   ```
+   git clone https://github.com/yourusername/MyApp.git
+   cd MyApp
+   ```
 
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for more information.
+2. Build the project:
+   ```
+   dotnet build
+   ```
 
-## License
+3. Run the tests:
+   ```
+   dotnet test tests/MyApp.Tests/MyApp.Tests.csproj
+   ```
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+4. Run the application:
+   ```
+   dotnet run --project src/MyApp/MyApp.csproj
+   ```
+
+The application will start, and you can access the API endpoints using tools like curl, Postman, or by navigating to `http://localhost:5094/swagger` in your web browser to use the Swagger UI.
