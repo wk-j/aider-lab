@@ -26,5 +26,7 @@ To build and test the project, follow these steps:
    ```
    dotnet run --project src/MyApp/MyApp.csproj
    ```
-
 The application will start, and you can access the API endpoints using tools like curl, Postman, or by navigating to `http://localhost:5094/swagger` in your web browser to use the Swagger UI.
+
+
+
