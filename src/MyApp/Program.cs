@@ -3,9 +3,18 @@ using Microsoft.OpenApi.Models;
 using MyApp.Data;
 using Serilog;
 using System.Reflection;
+using System;
 
 namespace MyApp
 {
+    public class X
+    {
+        public string Y()
+        {
+            return "a";
+        }
+    }
+
     public class Program
     {
         public static void Main(string[] args)
