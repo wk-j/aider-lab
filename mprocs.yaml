@@ -23,3 +23,7 @@ procs:
     cwd: ./
     shell: dotnet watch --project src/MyApp run
     autostart: false
+  clean:
+    cwd: ./
+    shell: dotnet clean src/MyApp/MyApp.csproj
+    autostart: false
