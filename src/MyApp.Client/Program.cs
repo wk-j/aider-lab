@@ -5,6 +5,7 @@ class Program
 {
     static async Task Main(string[] args)
     {
+        // This program generates a C# client based on the Swagger specification
         // Load the Swagger specification
         var document = await OpenApiDocument.FromFileAsync("src/MyApp/swagger.json");
 

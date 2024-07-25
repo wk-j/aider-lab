@@ -51,7 +51,7 @@ namespace MyApp
             // Add services to the container
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
-            
+
             ConfigureSwagger(builder.Services);
             ConfigureDatabase(builder.Services, builder.Configuration);
         }
