@@ -3,7 +3,6 @@ using Microsoft.OpenApi.Models;
 using MyApp.Data;
 using Serilog;
 using System.Reflection;
-using System;
 
 namespace MyApp
 {
