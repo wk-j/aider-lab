@@ -37,6 +37,7 @@ namespace MyApp
 
         private static void ConfigureLogging()
         {
+
             Log.Logger = new LoggerConfiguration()
                 .WriteTo.Console()
                 .WriteTo.File("logs/myapp-.txt", rollingInterval: RollingInterval.Day)
@@ -45,7 +46,7 @@ namespace MyApp
 
         private static void ConfigureServices(WebApplicationBuilder builder)
         {
-            // Add Serilog to the logging pipeline
+            // AddSerilog to the logging pipeline
             builder.Host.UseSerilog();
 
             // Add services to the container
